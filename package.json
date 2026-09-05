@@ -1,0 +1,26 @@
+{
+  "name": "secureshield-test-qwik",
+  "description": "Qwik City canonical test site for SecureShield Web SDK",
+  "engines": {
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "build": "qwik build",
+    "build.client": "vite build",
+    "build.preview": "vite build --mode preview",
+    "build.types": "tsc --noEmit",
+    "dev": "vite --mode ssr",
+    "preview": "qwik build preview && vite preview",
+    "start": "vite --open --mode ssr"
+  },
+  "devDependencies": {
+    "@builder.io/qwik": "^1.20.0",
+    "@builder.io/qwik-city": "^1.20.0",
+    "@types/node": "^20.14.0",
+    "ignore": "^7.0.8",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.14",
+    "vite-tsconfig-paths": "^4.3.2"
+  }
+}
