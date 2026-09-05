@@ -3,6 +3,12 @@
     "allowJs": false,
     "target": "ES2022",
     "module": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@secureshield/web": [
+        "src/secureshield-sdk"
+      ]
+    },
     "lib": [
       "ES2022",
       "DOM",
